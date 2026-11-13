@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Jane Reis | Salão de beleza na Vila Formosa, São Paulo</title>
+  <meta name="description" content="Cabelo, estética e unhas na Vila Formosa, São Paulo. Monte seu dia de beleza no Studio Jane Reis e agende pelo WhatsApp. R. Curupá, 469.">
+  <meta name="theme-color" content="#170d12">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Studio Jane Reis | Salão de beleza na Vila Formosa">
+  <meta property="og:description" content="Cabelo, estética e unhas num só endereço. Monte seu dia de beleza e agende pelo WhatsApp.">
+  <!-- Endereço absoluto exigido pelo WhatsApp; ajustar se o endereço de publicação mudar -->
+  <meta property="og:url" content="https://rafael2677.github.io/studio-jane-reis/">
+  <meta property="og:image" content="https://rafael2677.github.io/studio-jane-reis/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Dados estruturados: só campos confirmados (nome, endereço, telefone, coordenadas do Google).
+       CONFIRMAR: horário de funcionamento antes de incluir openingHours. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Studio Jane Reis",
+    "telephone": "+55 11 95121-8500",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Curupá, 469",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "03355-010",
+      "addressCountry": "BR"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": -23.5593271, "longitude": -46.5525064 },
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=Studio%20Jane%20Reis&query_place_id=ChIJo11wks1dzpQRf6A7tZFCiQY"
+  }
+  </script>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo" id="topo">
+    <!-- LOGO: trocar pela oficial (letreiro tipográfico provisório, inspirado na placa rosa com dourado) -->
+    <a class="marca" href="#inicio" aria-label="Studio Jane Reis, início">
+      <span class="marca__studio">Studio</span>
+      <span class="marca__nome">Jane Reis</span>
+    </a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#montar">Serviços</a>
+      <a href="#promocoes">Promoções</a>
+      <a href="#chegar">Estacionamento</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#local">Onde fica</a>
+    </nav>
+    <a class="btn btn--mini" href="#montar">Agendar</a>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ PRIMEIRA TELA ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__brilho" aria-hidden="true"></div>
+      <div class="hero__espelho" aria-hidden="true"></div>
+
+      <div class="hero__texto">
+        <p class="sobretitulo">Vila Formosa · São Paulo</p>
+        <h1 class="assinatura">
+          <span class="assinatura__studio">Studio</span>
+          <span class="assinatura__nome">Jane Reis</span>
+          <svg class="assinatura__traco" viewBox="0 0 300 26" aria-hidden="true" focusable="false">
+            <path d="M4 16 C 60 2, 120 24, 178 12 S 262 6, 296 14" pathLength="1"/>
+          </svg>
+        </h1>
+        <p class="hero__frase">Cabelo, estética e unhas num só endereço da Rua Curupá, com o nome da Jane assinando cada detalhe.</p>
+
+        <a class="nota" href="https://www.google.com/maps/search/?api=1&query=Studio%20Jane%20Reis&query_place_id=ChIJo11wks1dzpQRf6A7tZFCiQY" target="_blank" rel="noopener" aria-label="Nota 4,9 de 5 no Google, com 169 avaliações. Abrir no Google">
+          <span class="nota__num">4,9</span>
+          <span class="nota__estrelas" aria-hidden="true">★★★★★</span>
+          <span class="nota__txt">169 avaliações no Google</span>
+        </a>
+
+        <div class="hero__acoes">
+          <a class="btn btn--principal" href="#montar">Montar meu dia de beleza</a>
+          <a class="btn btn--linha js-wa" data-msg="Olá! Vim pelo site do Studio Jane Reis e gostaria de agendar um horário." href="https://wa.me/5511951218500?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Studio%20Jane%20Reis%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="hero__moldura" aria-hidden="true">
+        <div class="espelho espelho--grande">
+          <span class="espelho__rotulo">Foto do espaço entra aqui</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MONTADOR + SERVIÇOS ============ -->
+    <section class="secao montar" id="montar" aria-labelledby="t-montar">
+      <div class="secao__cabeca revelar">
+        <p class="sobretitulo">Serviços</p>
+        <h2 id="t-montar">Monte o seu <em>dia de beleza</em></h2>
+        <p class="secao__apoio">Toque no que você quer fazer. No final, o pedido vai pronto para o WhatsApp do studio e a equipe confirma horário e valores.</p>
+      </div>
+
+      <div class="montador">
+        <div class="montador__passos">
+
+          <div class="passo revelar">
+            <p class="passo__num"><span>1</span> O que você quer fazer?</p>
+
+            <div class="grupos">
+              <article class="grupo" data-grupo="Cabelo">
+                <header class="grupo__cabeca">
+                  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 4c6 2 10 7 10 13 0 4-2 7-2 11M15 4c5 2 9 7 9 13 0 4-1 7-1 11M21 5c3 2 6 6 6 11"/></svg>
+                  <div>
+                    <h3>Cabelo</h3>
+                    <p>Da escova à morena iluminada.</p>
+                  </div>
+                </header>
+                <div class="chips" role="group" aria-label="Serviços de cabelo">
+                  <!-- CONFIRMAR: "Corte" vem dos comentários de clientes no Google; confirmar se entra na lista -->
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Corte">Corte</button>
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Escova">Escova</button>
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Hidratação">Hidratação</button>
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Morena iluminada">Morena iluminada</button>
+                </div>
+              </article>
+
+              <article class="grupo" data-grupo="Estética">
+                <header class="grupo__cabeca">
+                  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4c4 5 7 9 7 14a7 7 0 0 1-14 0c0-5 3-9 7-14zM12 19c0 2 2 4 4 4"/></svg>
+                  <div>
+                    <h3>Estética</h3>
+                    <p>Pele e corpo, sem trocar de endereço.</p>
+                  </div>
+                </header>
+                <div class="chips" role="group" aria-label="Serviços de estética">
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Depilação a laser">Depilação a laser</button>
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Limpeza de pele">Limpeza de pele</button>
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Drenagem linfática">Drenagem linfática</button>
+                </div>
+              </article>
+
+              <article class="grupo" data-grupo="Unhas">
+                <header class="grupo__cabeca">
+                  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M11 28V12a5 5 0 0 1 10 0v16M11 17h10M14 4l2 3 2-3"/></svg>
+                  <div>
+                    <h3>Unhas</h3>
+                    <p>Mãos e pés para fechar o dia.</p>
+                  </div>
+                </header>
+                <div class="chips" role="group" aria-label="Serviços de unhas">
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Manicure">Manicure</button>
+                  <button type="button" class="chip" aria-pressed="false" data-servico="Spa dos pés">Spa dos pés</button>
+                </div>
+              </article>
+            </div>
+            <!-- CONFIRMAR: lista completa de serviços e se há outros (pedicure, sobrancelha, maquiagem etc.) -->
+          </div>
+
+          <div class="passo revelar">
+            <p class="passo__num"><span>2</span> Qual dia fica melhor?</p>
+            <!-- CONFIRMAR: dias de atendimento (Google mostra terça a sábado) -->
+            <div class="chips chips--dia" role="radiogroup" aria-label="Dia de preferência">
+              <button type="button" class="chip chip--opcao" role="radio" aria-checked="false" data-dia="terça-feira">Ter</button>
+              <button type="button" class="chip chip--opcao" role="radio" aria-checked="false" data-dia="quarta-feira">Qua</button>
+              <button type="button" class="chip chip--opcao" role="radio" aria-checked="false" data-dia="quinta-feira">Qui</button>
+              <button type="button" class="chip chip--opcao" role="radio" aria-checked="false" data-dia="sexta-feira">Sex</button>
+              <button type="button" class="chip chip--opcao" role="radio" aria-checked="false" data-dia="sábado">Sáb</button>
+            </div>
+            <div class="chips chips--periodo" role="radiogroup" aria-label="Período de preferência">
+              <button type="button" class="chip chip--opcao" role="radio" aria-checked="false" data-periodo="de manhã">Manhã</button>
+              <button type="button" class="chip chip--opcao" role="radio" aria-checked="false" data-periodo="à tarde">Tarde</button>
+            </div>
+          </div>
+
+          <div class="passo revelar">
+            <label class="passo__num" for="campo-nome"><span>3</span> Seu nome <small>(opcional)</small></label>
+            <input class="campo" id="campo-nome" type="text" autocomplete="given-name" maxlength="40" placeholder="Como podemos te chamar?">
+          </div>
+        </div>
+
+        <aside class="resumo revelar" aria-labelledby="t-resumo">
+          <div class="resumo__vidro">
+            <p class="resumo__assin" aria-hidden="true">Jane Reis</p>
+            <h3 id="t-resumo">Meu dia de beleza</h3>
+            <ul class="resumo__lista" id="resumo-lista" aria-live="polite">
+              <li class="resumo__vazio">Toque nos serviços e eles aparecem aqui.</li>
+            </ul>
+            <p class="resumo__quando" id="resumo-quando" hidden></p>
+            <a class="btn btn--principal btn--cheio" id="btn-enviar" href="https://wa.me/5511951218500" target="_blank" rel="noopener" aria-disabled="true">Escolha ao menos um serviço</a>
+            <p class="resumo__nota">Nada é cobrado aqui. A mensagem abre no seu WhatsApp e você envia se quiser.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ PROMOÇÕES ============ -->
+    <section class="secao secao--clara promo" id="promocoes" aria-labelledby="t-promo">
+      <div class="secao__cabeca revelar">
+        <p class="sobretitulo">Promoções</p>
+        <h2 id="t-promo">A promoção do mês, <em>sempre no mesmo lugar</em></h2>
+        <p class="secao__apoio">Em vez de se perder na conversa do WhatsApp, a oferta do mês fica aqui, à vista de quem chega.</p>
+      </div>
+
+      <!-- CONFIRMAR: promoção do mês (nome, o que inclui, validade e condições).
+           O cartão abaixo é só EXEMPLO DE LAYOUT: não há promoção nem preço reais aqui. -->
+      <article class="cartao-promo revelar" aria-label="Exemplo de layout do cartão de promoção">
+        <span class="cartao-promo__selo">Exemplo de layout</span>
+        <div class="cartao-promo__corpo">
+          <p class="cartao-promo__mes">Promoção do mês</p>
+          <h3>O nome da promoção entra aqui</h3>
+          <ul class="cartao-promo__linhas">
+            <li><span>O que inclui</span><b>a definir com o studio</b></li>
+            <li><span>Validade</span><b>a definir com o studio</b></li>
+            <li><span>Condições</span><b>a definir com o studio</b></li>
+          </ul>
+        </div>
+        <div class="cartao-promo__acao">
+          <a class="btn btn--escuro js-wa" data-msg="Olá! Vim pelo site do Studio Jane Reis e queria saber qual é a promoção deste mês." href="https://wa.me/5511951218500?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Studio%20Jane%20Reis%20e%20queria%20saber%20qual%20%C3%A9%20a%20promo%C3%A7%C3%A3o%20deste%20m%C3%AAs." target="_blank" rel="noopener">Perguntar pela promoção</a>
+          <p>Enquanto a promoção não está publicada aqui, o studio informa pelo WhatsApp.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ ESTACIONAMENTO + ACESSO ============ -->
+    <section class="secao chegar" id="chegar" aria-labelledby="t-chegar">
+      <div class="chegar__grade">
+        <div class="chegar__texto revelar">
+          <p class="sobretitulo">Estacionamento</p>
+          <h2 id="t-chegar">Venha de carro, <em>sem dar voltas</em></h2>
+          <!-- CONFIRMAR: estacionamento é próprio? quantas vagas? gratuito para clientes? onde fica a entrada? -->
+          <p class="secao__apoio">O estacionamento é um dos pontos que os clientes destacam nas avaliações do Google. Os detalhes de vagas o studio confirma na hora de agendar.</p>
+          <a class="btn btn--linha js-wa" data-msg="Olá! Vim pelo site do Studio Jane Reis. Vou de carro e queria saber como funciona o estacionamento." href="https://wa.me/5511951218500?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Studio%20Jane%20Reis.%20Vou%20de%20carro%20e%20queria%20saber%20como%20funciona%20o%20estacionamento." target="_blank" rel="noopener">Perguntar sobre as vagas</a>
+        </div>
+
+        <div class="chegar__placa revelar" aria-hidden="true">
+          <span class="placa__p">P</span>
+          <span class="placa__rua">R. Curupá, 469</span>
+        </div>
+
+        <!-- Itens de acessibilidade conforme o perfil do studio no Google (13/11/2026). CONFIRMAR com a dona. -->
+        <ul class="acesso revelar" aria-label="Acessibilidade informada no Google">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>Entrada acessível para cadeira de rodas</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>Estacionamento acessível</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>Banheiro acessível</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>Assentos acessíveis</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ GALERIA ============ -->
+    <section class="secao galeria" id="galeria" aria-labelledby="t-galeria">
+      <div class="secao__cabeca revelar">
+        <p class="sobretitulo">Galeria</p>
+        <h2 id="t-galeria">O studio, <em>do espelho para fora</em></h2>
+        <p class="secao__apoio">As molduras já estão no lugar. As fotos reais do studio entram assim que a Jane escolher.</p>
+      </div>
+      <!-- CONFIRMAR: fotos oficiais (fachada, recepção, espelhos, resultados de cabelo e unhas) -->
+      <div class="galeria__trilho" tabindex="0" role="group" aria-label="Espaços reservados para as fotos do studio">
+        <figure class="espelho"><span class="espelho__rotulo">Foto da fachada entra aqui</span></figure>
+        <figure class="espelho espelho--alto"><span class="espelho__rotulo">Foto da recepção entra aqui</span></figure>
+        <figure class="espelho"><span class="espelho__rotulo">Foto dos espelhos iluminados entra aqui</span></figure>
+        <figure class="espelho espelho--alto"><span class="espelho__rotulo">Foto de cabelo entra aqui</span></figure>
+        <figure class="espelho"><span class="espelho__rotulo">Foto de unhas entra aqui</span></figure>
+      </div>
+    </section>
+
+    <!-- ============ PROVA SOCIAL ============ -->
+    <section class="secao secao--clara prova" id="avaliacoes" aria-labelledby="t-prova">
+      <div class="prova__grade">
+        <div class="prova__nota revelar">
+          <p class="prova__num" id="t-prova"><span class="sr">Nota </span>4,9</p>
+          <p class="prova__estrelas" aria-hidden="true">★★★★★</p>
+          <p class="prova__base">169 avaliações no Google<br><small>dado de 13/11/2026</small></p>
+        </div>
+        <div class="prova__temas revelar">
+          <h2>O que mais aparece <em>nos comentários</em></h2>
+          <ul class="temas">
+            <li>Atendimento</li>
+            <li>Ambiente</li>
+            <li>Corte</li>
+            <li>Manicure</li>
+            <li>Estacionamento</li>
+          </ul>
+          <a class="btn btn--escuro" href="https://www.google.com/maps/search/?api=1&query=Studio%20Jane%20Reis&query_place_id=ChIJo11wks1dzpQRf6A7tZFCiQY" target="_blank" rel="noopener">Ver avaliações no Google</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOCALIZAÇÃO ============ -->
+    <section class="secao local" id="local" aria-labelledby="t-local">
+      <div class="secao__cabeca revelar">
+        <p class="sobretitulo">Onde fica</p>
+        <h2 id="t-local">Rua Curupá, 469 · <em>Vila Formosa</em></h2>
+      </div>
+      <div class="local__grade">
+        <div class="local__mapa revelar">
+          <iframe title="Mapa: Studio Jane Reis, R. Curupá, 469, Vila Formosa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=Studio%20Jane%20Reis%2C%20R.%20Curup%C3%A1%2C%20469%20-%20Vila%20Formosa%2C%20S%C3%A3o%20Paulo&z=16&output=embed"></iframe>
+        </div>
+        <div class="local__dados revelar">
+          <dl>
+            <div>
+              <dt>Endereço</dt>
+              <dd>R. Curupá, 469, Vila Formosa<br>São Paulo, SP · 03355-010</dd>
+            </div>
+            <div>
+              <dt>Horário</dt>
+              <!-- CONFIRMAR: horário abaixo é o do perfil no Google em 13/11/2026 -->
+              <dd>Terça a sábado, das 9h às 19h<br>Domingo e segunda: fechado<br><small>Conforme o perfil do studio no Google.</small></dd>
+            </div>
+            <div>
+              <dt>WhatsApp</dt>
+              <dd><a class="js-wa" data-msg="Olá! Vim pelo site do Studio Jane Reis e gostaria de agendar um horário." href="https://wa.me/5511951218500" target="_blank" rel="noopener">(11) 95121-8500</a></dd>
+            </div>
+          </dl>
+          <a class="btn btn--principal btn--cheio" href="https://www.google.com/maps/dir/?api=1&destination=Studio%20Jane%20Reis&destination_place_id=ChIJo11wks1dzpQRf6A7tZFCiQY" target="_blank" rel="noopener">Como chegar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="secao faq" id="duvidas" aria-labelledby="t-faq">
+      <div class="secao__cabeca revelar">
+        <p class="sobretitulo">Dúvidas</p>
+        <h2 id="t-faq">Antes de <em>agendar</em></h2>
+      </div>
+      <div class="faq__lista revelar">
+        <details>
+          <summary>Como faço para agendar?</summary>
+          <p>Pelo WhatsApp (11) 95121-8500. Se quiser adiantar, monte o seu dia de beleza aqui no site e a mensagem já sai com os serviços e o dia de preferência.</p>
+        </details>
+        <details>
+          <summary>Posso fazer mais de um serviço no mesmo dia?</summary>
+          <p>É para isso que existe o montador: escolha cabelo, estética e unhas de uma vez e envie. O studio responde com os horários possíveis.</p>
+        </details>
+        <details>
+          <summary>Tem estacionamento?</summary>
+          <!-- CONFIRMAR: regras do estacionamento -->
+          <p>Clientes citam o estacionamento nas avaliações do Google. Para saber como funcionam as vagas no dia do seu horário, pergunte pelo WhatsApp ao agendar.</p>
+        </details>
+        <details>
+          <summary>Qual é o horário de atendimento?</summary>
+          <p>No perfil do studio no Google consta terça a sábado, das 9h às 19h. Em feriados o horário pode mudar, então vale confirmar pelo WhatsApp.</p>
+        </details>
+        <details>
+          <summary>Onde vejo a promoção do mês?</summary>
+          <p>Na seção Promoções desta página. Enquanto ela não estiver publicada aqui, é só perguntar pelo WhatsApp.</p>
+        </details>
+        <details>
+          <summary>Quais são as formas de pagamento?</summary>
+          <!-- CONFIRMAR: formas de pagamento aceitas (Pix, cartões, parcelamento) -->
+          <p>O studio informa as formas de pagamento pelo WhatsApp, junto com os valores do que você escolher.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ FECHO ============ -->
+    <section class="fecho" aria-labelledby="t-fecho">
+      <p class="fecho__assin" aria-hidden="true">Jane Reis</p>
+      <h2 id="t-fecho">Seu horário começa com uma mensagem.</h2>
+      <a class="btn btn--principal" href="#montar">Montar meu dia de beleza</a>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape__marca">
+      <span class="marca__studio">Studio</span>
+      <span class="marca__nome">Jane Reis</span>
+    </div>
+    <p>R. Curupá, 469, Vila Formosa, São Paulo, SP · (11) 95121-8500</p>
+    <p class="rodape__patron">Prévia de demonstração · Site por <strong>Patron</strong></p>
+  </footer>
+
+  <a class="flutuante js-wa" id="flutuante" data-msg="Olá! Vim pelo site do Studio Jane Reis e gostaria de agendar um horário." href="https://wa.me/5511951218500?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Studio%20Jane%20Reis%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" aria-label="Chamar o Studio Jane Reis no WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27l1.7-5.4A11.5 11.5 0 1 1 11 25.6L5 27z"/><path d="M12.5 11.5c-.5 4 3.5 8.5 8 8.5l1.500-2-2.500-1.500-1.200 1c-1.500-.6-2.700-1.800-3.300-3.300l1-1.200-1.500-2.500-2 1z"/></svg>
+    <span class="flutuante__txt" id="flutuante-txt">WhatsApp</span>
+    <span class="flutuante__conta" id="flutuante-conta" hidden>0</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
